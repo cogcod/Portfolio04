@@ -578,7 +578,7 @@
                 이용하여 데이터들을 수정, 삭제, 복사 등을 할 수 있습니다.
               </p>
               <a
-                href="http://seololol.dothome.co.kr/php/pages/main.php"
+                href="http://seololol.dothome.co.kr/php2/pages/main.php"
                 target="_blank"
                 class="btn"
                 data-scroll
@@ -636,11 +636,12 @@
             <div class="sec6">
               <div class="inner">
                 <h2>CONTACT ME</h2>
-                <form class="email">
-                  <input type="email" placeholder="your name" required />
-                  <input type="text" placeholder="your email" maxlength="30" />
-                  <input type="text" placeholder="message" maxlength="300" />
-                  <a class="send" href="#">SEND</a>
+                <!-- formspree-email -->
+                <form action="https://formspree.io/f/mqknodye" method="POST">
+                  <input type="text" name="name" placeholder="your name" />
+                  <input type="email" name="email" placeholder="your email" />
+                  <textarea name="message" placeholder="your name"></textarea>
+                  <button type="submit">SEND</button>
                 </form>
                 <address>
                   Copyright &copy; 2022 By yuraseol All right reserved
