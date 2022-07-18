@@ -178,6 +178,7 @@
   display: flex;
   align-items: center;
   height: 100vh;
+  margin-left: 10vh;
 }
 .sec1 h1 {
   text-align: center;
@@ -297,7 +298,6 @@
 .site {
   width: 100vw;
   height: 100vh;
-  margin: 0 10vh;
 }
 .sec3 {
   background: url(../images/main_2.png) no-repeat center;
@@ -306,6 +306,7 @@
   display: flex;
   align-items: center;
   height: 100vh;
+  margin-right: 10vh;
 }
 .sec3 h1 {
   text-align: center;
@@ -433,7 +434,7 @@
 
 .site .right {
   position: absolute;
-  right: 10vw;
+  right: 13vw;
   bottom: 4vw;
   border: 2px solid #000;
   width: 32%;
